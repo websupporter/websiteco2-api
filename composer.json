@@ -1,0 +1,27 @@
+{
+    "name": "websupporter/co2",
+    "description": "API for sustainable website calculator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "websupporter",
+            "email": "webmaster@websupporter.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Websupporter\\Co2\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "ext-memcached": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "scripts": {
+        "cs" : "vendor/bin/phpcs --standard=PSR2 ./src index.php"
+    }
+}
