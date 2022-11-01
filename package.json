@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "lighthouse": "5.1.0"
+    "lighthouse": "9.6.8"
   }
 }
